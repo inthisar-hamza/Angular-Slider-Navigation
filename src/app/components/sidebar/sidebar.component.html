@@ -1,0 +1,110 @@
+<div #sidebar class="sidebar close" (mouseenter) ="mouseEnter()" >
+
+
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">RestCap</span>
+    </div>
+    <ul class="nav-links">
+      <li  >
+        <a  routerLink="/dashboard">
+          <i class='bx bx-grid-alt' ><ion-icon name="home-outline"></ion-icon></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Dashboard</a></li>
+        </ul>
+      </li>
+      <li  >
+        <div>
+          <a routerLink="/orders">
+            <i class='bx bx-collection' ><ion-icon name="grid-outline"></ion-icon></i>
+            <span class="link_name">Orders</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Orders</a></li>
+          </ul>
+       </div>
+      </li>
+      <li  >
+        <div>
+          <a  routerLink="/foods">
+            <i class='bx bx-collection' ><ion-icon name="fast-food-outline"></ion-icon></i>
+            <span class="link_name">Foods</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Foods</a></li>
+          </ul>
+       </div>
+      </li>
+      <li  >
+        <div >
+          <a  routerLink="/category">
+            <i class='bx bx-book-alt' ><ion-icon name="apps-outline"></ion-icon></i>
+            <span class="link_name">Category</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Category</a></li>
+          </ul>
+        </div>
+      </li>
+      <li >
+        <div >
+          <a  routerLink="/tags">
+            <i class='bx bx-plug' ><ion-icon name="pricetags-outline"></ion-icon></i>
+            <span class="link_name">Tags</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Tags</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <a  routerLink="/cost">
+          <i class='bx bx-compass' ><ion-icon name="cash-outline"></ion-icon></i>
+          <span class="link_name">Cost</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Cost</a></li>
+        </ul>
+      </li>
+     
+      <li>
+        <a  routerLink="/reports">
+          <i class='bx bx-line-chart' ><ion-icon name="pie-chart-outline"></ion-icon></i>
+          <span class="link_name">Reports</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Reports</a></li>
+        </ul>
+      </li>
+    
+      <li>
+        <a  routerLink="/transactions">
+          <i class='bx bx-cog' ><ion-icon name="wallet-outline"></ion-icon></i>
+          <span class="link_name">Transactions</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Transactions</a></li>
+        </ul>
+      </li>
+      <li>
+          
+  </li>
+</ul>
+
+
+  </div>
+
+  
+
+  <section  class="home-section" (mouseenter) ="mouseEnterHome()">
+
+      
+    <router-outlet></router-outlet>
+
+
+  </section>
+
+ 
